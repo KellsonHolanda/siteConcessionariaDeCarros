@@ -1,0 +1,146 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+html{
+    overflow-x: hidden;
+}
+header, footer {
+    background-color: #192a56;
+    color: aliceblue;
+    padding-top: 16px;
+}
+.container{
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+header> .container{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    align-items: center;
+}
+
+nav{
+    background-color: rgb(108, 51, 161);
+    padding: 16px 0;
+    display:none;
+}
+nav li{
+    list-style: none;
+    display: inline;
+    margin-right: 16px;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+nav li a{
+    color:antiquewhite;
+    text-decoration: none;
+}
+.menu-hamburguer {
+    width: 32px;
+    cursor: pointer;
+}
+.menu-hamburguer span{
+    height: 2px;
+    width: 100%;
+    background-color: antiquewhite;
+    display: block;
+    margin-bottom: 4px;
+}
+
+.container-flex{
+    display:flex;
+}
+#sobreALoja img{
+    max-width: 400px;
+    margin-right: 24px;
+}
+
+section{
+    padding: 48px 0;
+}
+section h2{
+    margin-bottom: 16px;
+}
+.listaDeVeiculos{
+    flex-wrap: wrap;
+    
+}
+.listaDeVeiculos li{
+    list-style: none;
+    max-width: 30%;
+    margin-bottom: 24px;
+}
+.listaDeVeiculos li h3{
+    margin:16px 0;
+}
+.listaDeVeiculos li img{
+    max-width: 100%;
+}
+.itemCentralDaFila{
+    margin: 0 5%;
+}
+button{
+    display: block;
+    width: 100%;
+    padding: 8px 0;
+    border:none;
+    border-radius:6px;
+    background-color: #119759;
+    cursor: pointer;
+    
+}
+.price{
+    margin:16px;
+}
+.price del{
+    color: #ccc;
+    font-size: 14px;
+}
+.campoDoFormulario{
+    margin-bottom: 16px;
+}
+.campoDoFormulario label{
+    font-weight: bold;
+    display: block;
+}
+.campoDoFormulario input, 
+.campoDoFormulario textarea{
+    width: 100%;
+    display:block;
+    padding: 8px;
+}
+form{
+    max-width: 360px;
+}
+textarea{
+    resize: none;
+    height: 120px;
+}
+form button{
+    max-width: 120px;
+}
+footer li{
+    list-style: none;
+    margin-left: 16px;
+}
+footer li img{
+    height: 32px;
+}
+footer .container{
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 16px;
+}
+header{
+    position: sticky;
+    top:0;
+    left: 0;
+    z-index: 1;
+}
+
